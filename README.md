@@ -44,6 +44,8 @@ Once you have verified that GCC is installed, simply:
 $ make
 ```
 
+then
+
 ```
 $ ./tsc_checker -h
 Usage:
@@ -59,9 +61,6 @@ tsc_checker is run from the command line. Please open your terminal and go to th
 
 ```bash
 $ ./tsc_checker -f 2800000
-```
-
-```bash
 TSC value        : 148885740411018
 SC value         : 365
 current value    : 54343295250021570
