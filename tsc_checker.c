@@ -95,7 +95,7 @@ void tsc_check(uint32_t frequency){
     if(current/tsc != scale){
 	printf("***warning***\n"
 	       "there is the possibility of numeric overflow "
-	       "at the next time of tartup if you have not taken measure.\n");
+	       "at the next time of startup if you have not taken measure.\n");
     }else{
 	printf("current value    : %llu\n", (unsigned long long)current);
 	printf("threashold value : %llu\n",  ((unsigned long long)~0));
